@@ -14,6 +14,9 @@ class AddPaidToUsers extends Migration
     public function up()
     {
         //
+        $table->string('rating');
+        $table->string('refrences');
+        $table->integer('usertype');
     }
 
     /**
@@ -24,5 +27,8 @@ class AddPaidToUsers extends Migration
     public function down()
     {
         //
+         $table->dropColumn('rating');
+         $table->dropColumn('refrences');
+         $table->dropColumn('usertype');
     }
 }
