@@ -30,7 +30,7 @@ $currentuser = User::find($id);
 echo "<pre> Data : ".print_r($currentuser, TRUE)."</pre>";
 $usergroup = $currentuser->user_group;
 echo "<pre> Data : ".print_r($usergroup, TRUE)."</pre>";
-   die();
-    //    return view('home');
+   //die();
+      return view('home');
     }
 }
