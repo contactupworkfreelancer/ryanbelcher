@@ -68,7 +68,7 @@ class RegisterController extends Controller
             'password' => bcrypt($data['password']),
             'rating'  => 'null',
             'refrences'  => 'null',
-            'usertype'  => 6,
+            'usetype'  => 'null'
         ]);
     }
 }
