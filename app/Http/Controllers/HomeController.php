@@ -23,13 +23,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-      echo "<pre> Data : ".print_r(Auth::user()->id, TRUE)."</pre>";
+      echo "<pre> Data : ".print_r(Auth::user(), TRUE)."</pre>";
       $id = Auth::user()->id;
       echo "<pre> Data : ".print_r($id, TRUE)."</pre>";
-$currentuser = User::find($id);
-echo "<pre> Data : ".print_r($currentuser, TRUE)."</pre>";
-$usergroup = $currentuser->user_group;
-echo "<pre> Data : ".print_r($usergroup, TRUE)."</pre>";
+
    //die();
       return view('home');
     }
