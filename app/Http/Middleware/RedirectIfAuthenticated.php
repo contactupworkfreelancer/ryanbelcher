@@ -19,6 +19,7 @@ class RedirectIfAuthenticated
     {
 
       echo "<pre> Data : ".print_r(Auth::user(), TRUE)."</pre>";
+      die();
         if (Auth::guard($guard)->check()) {
             return redirect('/home');
         }
