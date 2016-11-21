@@ -18,6 +18,11 @@ class Dashboard extends Controller
         //
     }
 
+    function showaddnewemp () {
+
+      return View::make('addemployee');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
