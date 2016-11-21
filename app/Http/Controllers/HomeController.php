@@ -25,7 +25,11 @@ class HomeController extends Controller
     public function index()
     {
     echo "<pre> Data : ".print_r(Auth::user(), TRUE)."</pre>";
-      //$id = Auth::user()->id;
+
+    if (Auth::user()->usertype == 1) {
+        return view('dashboard');
+    }
+      //$id = Auth::user()->usertype;
       //echo "<pre> Data : ".print_r($id, TRUE)."</pre>";
 
    //die();
