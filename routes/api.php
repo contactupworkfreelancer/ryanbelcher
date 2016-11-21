@@ -17,4 +17,8 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
 
+Route::get('/home/addemp', function () {
+    return view('addemployee');
+});
+
 Route::get('/home/addemployee', 'Dashboard@showaddnewemp');
