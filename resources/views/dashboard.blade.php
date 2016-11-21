@@ -361,24 +361,19 @@ License: You must have a valid license purchased only from themeforest(the above
 			<!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
 			<ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
 				<li class="start active ">
-					<a href="index.html">
+					<a href="">
 					<i class="icon-home"></i>
-					<span class="title">Dashboard</span>
+					<span class="title">EMPLOYEE LIST</span>
 					</a>
 				</li>
-				<li>
-					<a href="javascript:;">
-					<i class="icon-basket"></i>
-					<span class="title">eCommerce</span>
-					<span class="arrow "></span>
+
+        <li class="start ">
+					<a href="#">
+					<i class="icon-home"></i>
+					<span class="title">ADD NEW EMPLOYEE</span>
 					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="ecommerce_index.html">
-							<i class="icon-home"></i>
-							Dashboard</a>
-						</li>
-			</ul>
+				</li>
+      </ul>
 			<!-- END SIDEBAR MENU -->
 		</div>
 	</div>
@@ -390,7 +385,7 @@ License: You must have a valid license purchased only from themeforest(the above
 			<div class="page-head">
 				<!-- BEGIN PAGE TITLE -->
 				<div class="page-title">
-					<h1>Dashboard <small>statistics & reports</small></h1>
+					<h1>EMPLOYEE LIST</h1>
 				</div>
 				<!-- END PAGE TITLE -->
 			</div>
@@ -401,7 +396,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<a href="javascript:;">Home</a><i class="fa fa-circle"></i>
 				</li>
 				<li class="active">
-					 Dashboard
+					 EMPLOYEE LIST
 				</li>
 			</ul>
 			<!-- END PAGE BREADCRUMB -->
