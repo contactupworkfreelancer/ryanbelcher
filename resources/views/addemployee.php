@@ -360,14 +360,14 @@ License: You must have a valid license purchased only from themeforest(the above
 			<!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
 			<!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
 			<ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
-				<li class="start active ">
+				<li class="start  ">
 					<a href="">
 					<i class="icon-home"></i>
 					<span class="title">EMPLOYEE LIST</span>
 					</a>
 				</li>
 
-        <li class="start ">
+        <li class="start active">
 					<a href="#">
 					<i class="icon-home"></i>
 					<span class="title">ADD NEW EMPLOYEE</span>
@@ -385,7 +385,7 @@ License: You must have a valid license purchased only from themeforest(the above
 			<div class="page-head">
 				<!-- BEGIN PAGE TITLE -->
 				<div class="page-title">
-					<h1>EMPLOYEE LIST</h1>
+					<h1>ADD NEW EMPLOYEE </h1>
 				</div>
 				<!-- END PAGE TITLE -->
 			</div>
@@ -396,7 +396,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<a href="javascript:;">Home</a><i class="fa fa-circle"></i>
 				</li>
 				<li class="active">
-					 EMPLOYEE LIST
+					 ADD NEW EMPLOYEE
 				</li>
 			</ul>
 			<!-- END PAGE BREADCRUMB -->
@@ -404,6 +404,123 @@ License: You must have a valid license purchased only from themeforest(the above
 		</div>
 	</div>
 	<!-- END CONTENT -->
+	<div class="row">
+		<div class="col-md-12">
+			<!-- BEGIN VALIDATION STATES-->
+			<div class="portlet box yellow">
+				<div class="portlet-title">
+					<div class="caption">
+						<i class="fa fa-gift"></i>Validation Using Icons
+					</div>
+					<div class="tools">
+						<a href="javascript:;" class="collapse">
+						</a>
+						<a href="#portlet-config" data-toggle="modal" class="config">
+						</a>
+						<a href="javascript:;" class="reload">
+						</a>
+						<a href="javascript:;" class="remove">
+						</a>
+					</div>
+				</div>
+				<div class="portlet-body form">
+					<!-- BEGIN FORM-->
+					<form action="#" id="form_sample_2" class="form-horizontal">
+						<div class="form-body">
+							<div class="alert alert-danger display-hide">
+								<button class="close" data-close="alert"></button>
+								You have some form errors. Please check below.
+							</div>
+							<div class="alert alert-success display-hide">
+								<button class="close" data-close="alert"></button>
+								Your form validation is successful!
+							</div>
+							<div class="form-group">
+								<label class="control-label col-md-3">Name <span class="required">
+								* </span>
+								</label>
+								<div class="col-md-4">
+									<div class="input-icon right">
+										<i class="fa"></i>
+										<input type="text" class="form-control" name="name"/>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-md-3">Email <span class="required">
+								* </span>
+								</label>
+								<div class="col-md-4">
+									<div class="input-icon right">
+										<i class="fa"></i>
+										<input type="text" class="form-control" name="email"/>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-md-3">URL <span class="required">
+								* </span>
+								</label>
+								<div class="col-md-4">
+									<div class="input-icon right">
+										<i class="fa"></i>
+										<input type="text" class="form-control" name="url"/>
+									</div>
+									<span class="help-block">
+									e.g: http://www.demo.com or http://demo.com </span>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-md-3">Number <span class="required">
+								* </span>
+								</label>
+								<div class="col-md-4">
+									<div class="input-icon right">
+										<i class="fa"></i>
+										<input type="text" class="form-control" name="number"/>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-md-3">Digits <span class="required">
+								* </span>
+								</label>
+								<div class="col-md-4">
+									<div class="input-icon right">
+										<i class="fa"></i>
+										<input type="text" class="form-control" name="digits"/>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-md-3">Credit Card <span class="required">
+								* </span>
+								</label>
+								<div class="col-md-4">
+									<div class="input-icon right">
+										<i class="fa"></i>
+										<input type="text" class="form-control" name="creditcard"/>
+									</div>
+									<span class="help-block">
+									e.g: 5500 0000 0000 0004 </span>
+								</div>
+							</div>
+						</div>
+						<div class="form-actions">
+							<div class="row">
+								<div class="col-md-offset-3 col-md-9">
+									<button type="submit" class="btn green">Submit</button>
+									<button type="button" class="btn default">Cancel</button>
+								</div>
+							</div>
+						</div>
+					</form>
+					<!-- END FORM-->
+				</div>
+			</div>
+			<!-- END VALIDATION STATES-->
+		</div>
+	</div>
 </div>
 <!-- END CONTAINER -->
 <!-- BEGIN FOOTER -->
