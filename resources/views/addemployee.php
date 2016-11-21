@@ -361,7 +361,7 @@ License: You must have a valid license purchased only from themeforest(the above
 			<!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
 			<ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
 				<li class="start  ">
-					<a href="">
+					<a href="/home">
 					<i class="icon-home"></i>
 					<span class="title">EMPLOYEE LIST</span>
 					</a>
