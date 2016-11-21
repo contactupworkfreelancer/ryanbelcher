@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Database\Eloquent\Model;
 use App\User;
 
 class Dashboard extends Controller
@@ -20,7 +21,7 @@ class Dashboard extends Controller
         //
     }
 
-    function showaddnewemp () {
+    public function showaddnewemp () {
 
       return View::make('addemployee');
     }
