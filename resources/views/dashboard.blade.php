@@ -368,7 +368,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</li>
 
         <li class="start ">
-					<a href="#">
+					<a href="/api/home/addemp">
 					<i class="icon-home"></i>
 					<span class="title">ADD NEW EMPLOYEE</span>
 					</a>

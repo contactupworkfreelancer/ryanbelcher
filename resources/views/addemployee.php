@@ -368,7 +368,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</li>
 
         <li class="start active">
-					<a href="#">
+					<a href="/api/home/addemp">
 					<i class="icon-home"></i>
 					<span class="title">ADD NEW EMPLOYEE</span>
 					</a>
@@ -406,17 +406,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="portlet box yellow">
 						<div class="portlet-title">
 							<div class="caption">
-								<i class="fa fa-gift"></i>Validation Using Icons
-							</div>
-							<div class="tools">
-								<a href="javascript:;" class="collapse">
-								</a>
-								<a href="#portlet-config" data-toggle="modal" class="config">
-								</a>
-								<a href="javascript:;" class="reload">
-								</a>
-								<a href="javascript:;" class="remove">
-								</a>
+								<i class="fa fa-gift"></i>Add New Employee
 							</div>
 						</div>
 						<div class="portlet-body form">
@@ -454,51 +444,27 @@ License: You must have a valid license purchased only from themeforest(the above
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="control-label col-md-3">URL <span class="required">
+										<label class="control-label col-md-3">Password <span class="required">
 										* </span>
 										</label>
 										<div class="col-md-4">
 											<div class="input-icon right">
 												<i class="fa"></i>
-												<input type="text" class="form-control" name="url"/>
+												<input type="text" class="form-control" name="password"/>
 											</div>
 											<span class="help-block">
-											e.g: http://www.demo.com or http://demo.com </span>
+
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="control-label col-md-3">Number <span class="required">
+										<label class="control-label col-md-3">rating <span class="required">
 										* </span>
 										</label>
 										<div class="col-md-4">
 											<div class="input-icon right">
 												<i class="fa"></i>
-												<input type="text" class="form-control" name="number"/>
+												<input type="number" class="form-control" name="rating"/>
 											</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-md-3">Digits <span class="required">
-										* </span>
-										</label>
-										<div class="col-md-4">
-											<div class="input-icon right">
-												<i class="fa"></i>
-												<input type="text" class="form-control" name="digits"/>
-											</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-md-3">Credit Card <span class="required">
-										* </span>
-										</label>
-										<div class="col-md-4">
-											<div class="input-icon right">
-												<i class="fa"></i>
-												<input type="text" class="form-control" name="creditcard"/>
-											</div>
-											<span class="help-block">
-											e.g: 5500 0000 0000 0004 </span>
 										</div>
 									</div>
 								</div>
