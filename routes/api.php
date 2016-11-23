@@ -18,6 +18,9 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:api');
 
 Route::get('/home/addemp', function () {
+
+  echo " helo";
+  die();
     return view('addemployee');
 });
 
