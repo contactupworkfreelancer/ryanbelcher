@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Title</title>
+  <title>DishTv</title>
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no"/>
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -37,17 +37,17 @@
         <div class="container">
           <div class="brand">
             <h1 class="brand_name fl-justicons-airplane82">
-              <a href="./">MailJet</a>
+              <a href="./">DishTv</a>
             </h1>
           </div>
 
           <nav class="nav">
             <ul class="sf-menu" data-type="navbar">
               <li class="active">
-                <a href="./">About us </a>
+                <a href="./">Home </a>
               </li>
               <li>
-                <a href="index-1.html">Our services</a>
+                <a href="index-1.html">Services</a>
                 <ul>
                   <li>
                     <a href="#">News</a>
@@ -68,14 +68,11 @@
                   </li>
                 </ul>
               </li>
-              <li>
-                <a href="index-2.html">Clients</a>
+             <li>
+                <a href="#">Plans</a>
               </li>
               <li>
-                <a href="index-3.html">Careers</a>
-              </li>
-              <li>
-                <a href="index-4.html">Contacts</a>
+                <a href="index-4.html">Contacts Us</a>
               </li>
             </ul>
           </nav>
@@ -86,11 +83,13 @@
 
     <div class="header-section2">
       <div class="container">
-        <h2>Meet The Mail Jet</h2>
-        <h3>The Best Mail Service On The Web! </h3>
+        <h2>Find Internet & Cable TV </h2>
+        <h3>Providers in your Area. </h3>
         <div class="btn-holder">
-          <a href="#" class="btn">Sign Up</a>
-          <a href="#" class="btn"><i class="fa-caret-right"></i> Take a Tour</a>
+          <form action="#">
+		  <input class="login" type="tel" name="zipcode" required="required" placeholder="Zip Code" autocomplete="off" maxlength="5" pattern="[0-9]{5}">
+		  <button class="btn" type="submit">Find</button>
+		  </form>
         </div>
       </div>
     </div>
@@ -99,47 +98,47 @@
   <!--========================================================
                             CONTENT
   =========================================================-->
+  
+  
   <main>
-
-
+  
     <section class="well">
+	<h1>How do I choose the best provider?</h1>
+	<p>DishTv doesn’t just show you service options when you enter your zip code, we also show you provider ratings from real customers. Based on an <br>
+	independent satisfaction survey, our provider ratings help you evaluate providers by informing you how satisfied their customers are with speeds, channels, prices,<br>
+	and customer support.</p>
       <div class="container">
+	  
         <ul class="list1 row float-fix">
+		
           <li class="col-md-4 col-sm-4 col-xs-6  wow fadeIn fl-bigmug-line-airplane86">
-            <h5>Jet Mailer</h5>
-            <p>MailJet's send time optimization recommends the best send time within 24 hours of your selected delivery date.</p>
+            <h5>Satellite</h5>
+            <p>Look at satellite TV if you want one of our highest rated TV providers! Get ultimate home flexibility with the Hopper® by DISH; or you can make sure you get the game this Sunday with NFL Sunday Ticket on DIRECTV.</p>
           </li>
           <li class="col-md-4 col-sm-4 col-xs-6  wow fadeIn fl-bigmug-line-attach8">
-            <h5>Files attach</h5>
-            <p>Add files and one-to-one conversations to profiles, so you can remember who your customers are. And you can access it all </p>
+            <h5>Cable</h5>
+            <p>Want a great deal through bundling? Xfinity from Comcast, Time Warner Cable, Cox, and Charter all have amazing Triple Play options to maximize your home services. Also get access to your favorite HD channels through cable TV.</p>
           </li>
           <li class="col-md-4 col-sm-4 col-xs-6  wow fadeIn fl-bigmug-line-big104">
-            <h5>Geotargeting</h5>
-            <p>Access your MailJet account from your phone with MailJet Mobile. Check your reports, add notes about a contact</p>
+            <h5>Fiber</h5>
+            <p>Looking to maximize your channels, have access to HD options, and more on-Demand services than ever before? AT&T, Verizon, Frontier, and CenturyLink all have TV services that balance your need for variety, so you can watch TV like never before.</p>
           </li>
-          <li class="col-md-4 col-sm-4 col-xs-6  wow fadeIn fl-bigmug-line-circular228">
-            <h5>Dashboard</h5>
-            <p>In addition to the reports that come with every account, MailJet offers plenty of advanced reporting options that you want</p>
-          </li>
-          <li class="col-md-4 col-sm-4 col-xs-6  wow fadeIn fl-bigmug-line-cellular9">
-            <h5>Responsive emails</h5>
-            <p>Our templates and forms are mobile-ready out of the box, so you don't have to worry about coding anything special to make </p>
-          </li>
-          <li class="col-md-4 col-sm-4 col-xs-6  wow fadeIn fl-bigmug-line-planetary2">
-            <h5>52 Countries</h5>
-            <p>Edit campaigns, collaborate with your team, and send from a tablet with MailJet Editor. And with Jetadeedoo,</p>
-          </li>
+          
         </ul>
       </div>
     </section>
+	
+	
+
+
 
     <section class="bg-img1">
       <div class="container">
         <div class="row">
             <div class="col-md-5 col-sm-6 col-xs-12  wow fadeIn">
-              <h4>MailJet helps you email the right people at the right time.</h4>
-              <p>Send automated emails based on customer behavior and preferences. Get started with pre-built Workflows or use our built-in segmentation and targeting options to build</p>
-              <a href="#" class="btn2">Sign Up</a>
+              <h4>Get the Whole Home TiVo experience</h4>
+              <p>The Whole Home Bundle lets you extend the TiVo experience throughout your home - so you can easily stream, record, and share from any room!</p>
+              <a href="#" class="btn2">Learn More</a>
             </div>
         </div>
       </div>
@@ -177,9 +176,159 @@
         <a href="#" class="btn2">Sign Up</a>
       </div>
     </section>
+	<br>
+	<br>
+    <br>
 
+	<h1>Dish Receivers And Equipments</h1>
+<br>
+<br>
+<br>
 
-
+<table>
+  <tr>
+    <th>7-Room DVR</th>
+	<th>4-Room DVR</th>
+	<th>2-Room DVR</th>
+    <th>2-Room</th>
+	<th>1-Room DVR</th>
+	<th>1-Room</th>
+	<th>1-Room</th>
+  </tr>
+  <tr>
+    <td>Ultra HD Whole <br>Home DVR Receiver</td>
+    <td>Whole Home DVR Receiver</td>
+    <td>HD Duo DVR Receiver</td>
+	<td>HD Duo Receiver</td>
+	<td>Solo DVR Receiver</td>
+	<td>Solo Receiver</td>
+	<td>Solo Receiver</td>
+  </tr>
+  <tr>
+    <td><img src="images/set.png"></td>
+    <td><img src="images/set.png"></td>
+    <td><img src="images/set.png"></td>
+	<td><img src="images/set.png"></td>
+	<td><img src="images/set.png"></td>
+	<td><img src="images/set.png"></td>
+	<td><img src="images/set.png"></td>
+  </tr>
+  <tr>
+    <td>Upto 7 HDTV<br>(with Joey)</td>
+    <td>Upto 7 HDTV<br>(with Joey)</td>
+    <td>1 HDTV & 1 SDTV</td>
+	<td>1 HDTV</td>
+	<td>1 HDTV</td>
+	<td>1 HDTV</td>
+	<td>1 HDTV</td>
+  </tr>
+  <tr>
+    <td>2 TB Hard drive</td>
+    <td>2 TB Hard drive</td>
+    <td>320 GB Hard Drive(622)</td>
+	<td>-</td>
+	<td>320 GB Hard Drive</td>
+	<td>-</td>
+	<td>-</td>
+  </tr>
+  <tr>
+    <td>Dolby Digital</td>
+    <td>Dolby Digital</td>
+    <td>Dolby Digital</td>
+	<td>Dolby Digital</td>
+	<td>Dolby Digital</td>
+	<td>Dolby Digital</td>
+	<td>Dolby Digital</td>
+  </tr>
+  <tr>
+    <td>Picture in Picture</td>
+    <td>Picture in Picture</td>
+    <td>Picture in Picture<br>in single mode</td>
+	<td>Picture in Picture<br>in single mode</td>
+	<td>-</td>
+	<td>-</td>
+	<td>-</td>
+  </tr>
+  <tr>
+    <td>1080p VOD</td>
+    <td>1080p VOD</td>
+    <td>1080p VOD</td>
+	<td>-</td>
+	<td>1080p VOD</td>
+	<td>1080p VOD</td>
+	<td>-</td>
+  </tr>
+  <tr>
+    <td>3D VOD</td>
+    <td>3D VOD</td>
+    <td>3D VOD</td>
+	<td>-</td>
+	<td>-</td>
+	<td>-</td>
+	<td>-</td>
+  </tr>
+  <tr>
+    <td>External Hard<br>Drive capatiable</td>
+    <td>External Hard<br>Drive capatiable</td>
+    <td>External Hard<br>Drive capatiable</td>
+	<td>-</td>
+	<td>External Hard<br>Drive capatiable</td>
+	<td>External Hard<br>Drive capatiable</td>
+	<td>External Hard<br>Drive capatiable</td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<h1>Standard Definition Receivers </h1>
+<br>
+<br>
+<br>
+<table>
+  <tr>
+    <th>2-Room DVR</th>
+	<th>2-Room</th>
+	<th>1-Room DVR</th>
+    <th>1-Room</th>
+	
+  </tr>
+  <tr>
+    <td>DUO DVR Receiver</td>
+    <td>DUO Receiver</td>
+    <td>Solo DVR</td>
+	<td>Solo Receiver</td>
+	
+  </tr>
+  <tr>
+    <td><img src="images/set.png"></td>
+    <td><img src="images/set.png"></td>
+    <td><img src="images/set.png"></td>
+	<td><img src="images/set.png"></td>
+	
+  </tr>
+  <tr>
+    <td>120 Hard Drive</td>
+    <td>-</td>
+    <td>120 Hard Drive</td>
+	<td>-</td>
+	
+  </tr>
+  <tr>
+    <td>Picture in Picture<br>in single mode</td>
+    <td>-</td>
+    <td>Picture in Picture<br>in single mode</td>
+	<td>-</td>
+	
+  </tr>
+  <tr>
+    <td>Caller ID*</td>
+    <td>Caller ID*</td>
+    <td>Caller ID*</td>
+	<td>Caller ID*</td>
+	
+  </tr>
+  
+  </table>
     <section class="well4">
       <div class="container">
         <h3 class="cntr">Pricing Plans</h3>
@@ -188,66 +337,72 @@
             <div class="pricing">
               <div class="price-banner">
                 <h5>Basic</h5>
-                <p class="price">$29</p>
-                <p class="price2">per mouth</p>
-                <p>Perfect for a blog or personal site, contact our Sales team to discuss the best MailJet solution for your organization.</p>
-                <ul class="list2">
-                  <li>Up to 15 members</li>
-                  <li>Data export</li>
-                  <li>SSO &amp; SAML</li>
-                  <li class="disabled">Unlimited projects</li>
-                  <li class="disabled">Premium Dashboards</li>
-                  <li class="disabled">Support</li>
+                <p class="price">$88</p>
+                <p class="price2">per month</p>
+                <ul class="">
+                  <li>-$28 Programming Rebates</li>
+                  <li>-$10 Instant Saving</li>
                 </ul>
+				<p><h4>$50 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
                 <a href="#" class="btn3">select plan</a>
               </div>
 
               <div class="price-banner">
-                <h5>Small Company</h5>
-                <p class="price">$49</p>
-                <p class="price2">per mouth</p>
-                <p>Ideal for businesses of all sizes, contact our Sales team to discuss the best MailJet solution for your organization.</p>
-                <ul class="list2">
-                  <li>Up to 15 members</li>
-                  <li>Data export</li>
-                  <li>SSO &amp; SAML</li>
-                  <li>Unlimited projects</li>
-                  <li class="disabled">Premium Dashboards</li>
-                  <li class="disabled">Support</li>
+                <h5>Basic</h5>
+                <p class="price">$98</p>
+                <p class="price2">per month</p>
+                <ul class="">
+                  <li>-$33 Programming Rebates</li>
+                  <li>-$10 Instant Saving</li>
                 </ul>
+				<p><h4>$55 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
+                <a href="#" class="btn3">select plan</a>
+              </div>
+			  
+			  <div class="price-banner">
+                <h5>Basic</h5>
+                <p class="price">$111</p>
+                <p class="price2">per month</p>
+                <ul class="">
+                  <li>-$41 Programming Rebates</li>
+                  <li>-$10 Instant Saving</li>
+                </ul>
+				<p><h4>$60 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
                 <a href="#" class="btn3">select plan</a>
               </div>
 
               <div class="price-banner active">
                 <p class="recommended">recommended</p>
                 <h5>Big Company</h5>
-                <p class="price">$59</p>
-                <p class="price2">per mouth</p>
-                <p>Ideal for heavy traffic sites, contact our Sales team to discuss the best MailJet solution for your organization.</p>
-                <ul class="list2">
-                  <li>Up to 15 members</li>
-                  <li>Data export</li>
-                  <li>SSO &amp; SAML</li>
-                  <li>Unlimited projects</li>
-                  <li>Premium Dashboards</li>
-                  <li class="disabled">Support</li>
+                <p class="price">$118</p>
+                <p class="price2">per month</p>
+                <ul class="">
+                  <li>-$38 Programming Rebates</li>
+                  <li>-$10 Instant Saving</li>
                 </ul>
+				<p><h4>$70 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
                 <a href="#" class="btn3">select plan</a>
               </div>
-
-              <div class="price-banner">
-                <h5>Corporate</h5>
-                <p class="price">$199</p>
-                <p class="price2">per mouth</p>
-                <p>For large or complex teams, contact our Sales team to discuss the best MailJet solution for your organization.</p>
-                <ul class="list2">
-                  <li>Up to 15 members</li>
-                  <li>Data export</li>
-                  <li>SSO &amp; SAML</li>
-                  <li>Unlimited projects</li>
-                  <li>Premium Dashboards</li>
-                  <li>Support</li>
+			  <div class="price-banner">
+                <h5>Basic</h5>
+                <p class="price">$128</p>
+                <p class="price2">per month</p>
+                <ul class="">
+                  <li>-$43 Programming Rebates</li>
+                  <li>-$10 Instant Saving</li>
                 </ul>
+				<p><h4>$75 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
+                <a href="#" class="btn3">select plan</a>
+              </div>
+              <div class="price-banner">
+                <h5>Basic</h5>
+                <p class="price">$181</p>
+                <p class="price2">per month</p>
+                <ul class="">
+                  <li>-$46 Programming Rebates</li>
+                  <li>-$10 Instant Saving</li>
+                </ul>
+				<p><h4>$125 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
                 <a href="#" class="btn3">select plan</a>
               </div>
             </div>
@@ -255,6 +410,42 @@
         </div>
       </div>
     </section>
+	<br>
+	<br>
+<h1>Get Started: Find Your Best Deals Now</h1>
+<br>
+<br>
+
+<table>
+  <tr>
+    <td><h4>Choose Your<br>Services:</h4></td>
+    <td><img src="images/set.png"><br><section>
+  <!-- Checbox Five -->
+  <h3>Internet</h3>
+  	<div class="checkboxFive">
+  		<input type="checkbox" value="1" id="checkboxFiveInput" name="" />
+	  	<label for="checkboxFiveInput"></label>
+  	</div>
+</section></td>
+    <td><img src="images/set.png"><br><section>
+  <!-- Checbox Five -->
+  <h3>Digital TV</h3>
+  	<div class="checkboxFive">
+  		<input type="checkbox" value="1" id="checkboxFiveInput" name="" />
+	  	<label for="checkboxFiveInput"></label>
+  	</div>
+</section></td>
+	<td><img src="images/set.png"><br><section>
+  <!-- Checbox Five -->
+  <h3>Home</h3>
+  	<div class="checkboxFive">
+  		<input type="checkbox" value="1" id="checkboxFiveInput" name="" />
+	  	<label for="checkboxFiveInput"></label>
+  	</div>
+</section></td>
+<td><button class="btn2" type="submit">Find</button></td>
+	</tr>
+  </table>
 
 
 
