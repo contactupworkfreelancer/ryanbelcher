@@ -83,14 +83,13 @@
 
     <div class="header-section2">
       <div class="container">
-        <h2>Find Internet & Cable TV </h2>
-        <h3>Providers in your Area. </h3>
+        
+		<p>Dish TV produces unmatched sales results <br>through customized face-to-face sales programs<br> based on innovation and a personalized touch.</p>
+        <br>
+		<button class="btn" type="submit">Learn More</button>
         <div class="btn-holder">
-          <form action="#">
-		  <input class="login" type="tel" name="zipcode" required="required" placeholder="Zip Code" autocomplete="off" maxlength="5" pattern="[0-9]{5}">
-		  <button class="btn" type="submit">Find</button>
-		  </form>
-        </div>
+          
+		</div>
       </div>
     </div>
 
@@ -101,50 +100,40 @@
   
   
   <main>
+ 
   
-    <section class="well">
-	<h1>How do I choose the best provider?</h1>
-	<p>DishTv doesn’t just show you service options when you enter your zip code, we also show you provider ratings from real customers. Based on an <br>
-	independent satisfaction survey, our provider ratings help you evaluate providers by informing you how satisfied their customers are with speeds, channels, prices,<br>
-	and customer support.</p>
-      <div class="container">
-	  
-        <ul class="list1 row float-fix">
-		
-          <li class="col-md-4 col-sm-4 col-xs-6  wow fadeIn fl-bigmug-line-airplane86">
-            <h5>Satellite</h5>
-            <p>Look at satellite TV if you want one of our highest rated TV providers! Get ultimate home flexibility with the Hopper® by DISH; or you can make sure you get the game this Sunday with NFL Sunday Ticket on DIRECTV.</p>
-          </li>
-          <li class="col-md-4 col-sm-4 col-xs-6  wow fadeIn fl-bigmug-line-attach8">
-            <h5>Cable</h5>
-            <p>Want a great deal through bundling? Xfinity from Comcast, Time Warner Cable, Cox, and Charter all have amazing Triple Play options to maximize your home services. Also get access to your favorite HD channels through cable TV.</p>
-          </li>
-          <li class="col-md-4 col-sm-4 col-xs-6  wow fadeIn fl-bigmug-line-big104">
-            <h5>Fiber</h5>
-            <p>Looking to maximize your channels, have access to HD options, and more on-Demand services than ever before? AT&T, Verizon, Frontier, and CenturyLink all have TV services that balance your need for variety, so you can watch TV like never before.</p>
-          </li>
-          
-        </ul>
-      </div>
-    </section>
+  <section>
+    <div id="container">
+	<div id="col4">
+            <h5>THE Dish TV DIFFERENCE</h5>
+			<p>At Smart Circle, our goal is to successfully implement and execute customized face-to-face marketing and sales solutions through a dynamic national independent sales network, creating entrepreneurial opportunities for businesses everywhere to thrive and reach their goals.<p>
+        <button class="btn2" type="submit">Read More</button><br>	</div>
+		  <div id="col5">
+            <h5>SEE WHAT SMART<br>CIRCLE CAN DO<br>FOR YOU!</h5>
+            <br>
+          <button class="btn2" type="submit">Contact Us Today</button><br>	</div><br>
+    <div id="col1"><img src="images/01.jpg">
+            <h5>WHO WE ARE</h5>
+            <p align="left">Dish TV nationwide retail staffing programs and targeted canvassing programs outperform traditional marketing in customer acquisition, brand awareness and revenue goals.</p>
+		  <br>
+          <button class="btn2" type="submit">Read More</button><br>	</div>
+    <div id="col2"><img src="images/02.jpg">
+            <h5>WHAT WE DO</h5>
+            <p>As a worldwide leader in face-to-face marketing and direct and outsourced sales, Smart Circle is privileged to work with clients ranging from Fortune 500 companies and nationally recognized brands to regional and local businesses.</p>
+          <button class="btn2" type="submit">Read More</button><br></div>
+    <div id="col3"><img src="images/03.jpg">
+            <h5>HOW WE DO IT</h5>
+            <p>With the Smart Circle Sales Network of independently owned and operated corporate distributors, we are able to implement and execute customized face-to-face sales and marketing solutions.</p>
+          <button class="btn2" type="submit">Read More</button>
+		  <br>
+		  </div>
+</div>
+</section>
+
+
 	
-	
 
-
-
-    <section class="bg-img1">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-5 col-sm-6 col-xs-12  wow fadeIn">
-              <h4>Get the Whole Home TiVo experience</h4>
-              <p>The Whole Home Bundle lets you extend the TiVo experience throughout your home - so you can easily stream, record, and share from any room!</p>
-              <a href="#" class="btn2">Learn More</a>
-            </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="well2">
+<section class="well2">
       <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-3 col-xs-6  wow fadeIn">
@@ -169,166 +158,42 @@
         </div>
       </div>
     </section>
-
-    <section class="parallax well3 wow fadeIn" data-url="images/parallax1.jpg" data-mobile="true" data-speed="1">
+	<section class="parallax well3 wow fadeIn" data-url="images/parallax4.jpg" data-mobile="true" data-speed="1">
       <div class="container">
-        <h4 class="mod1">Best professional tools <br>for your business</h4>
-        <a href="#" class="btn2">Sign Up</a>
+        <h4 class="mod1">Hello</h4>
+		<p>We believe that success is rooted in attitude and work ethic. We teach our reps how to harness the power of belief, hard work,<br> and leadership and in return they create opportunity for themselves and the people of this world.</p>
+        <br>
+		<button class="btn">Sign Up</button>
+      </div>
+    </section>
+	<section class="well5 bg2 section2">
+      <div class="container">
+        <h3>LOOKING TO JOIN THE TEAM?</h3>
+        <a href="#" class="btn4">Apply Now</a>
       </div>
     </section>
 	<br>
 	<br>
-    <br>
-
-	<h1>Dish Receivers And Equipments</h1>
-<br>
-<br>
-<br>
-
-<table>
-  <tr>
-    <th>7-Room DVR</th>
-	<th>4-Room DVR</th>
-	<th>2-Room DVR</th>
-    <th>2-Room</th>
-	<th>1-Room DVR</th>
-	<th>1-Room</th>
-	<th>1-Room</th>
-  </tr>
-  <tr>
-    <td>Ultra HD Whole <br>Home DVR Receiver</td>
-    <td>Whole Home DVR Receiver</td>
-    <td>HD Duo DVR Receiver</td>
-	<td>HD Duo Receiver</td>
-	<td>Solo DVR Receiver</td>
-	<td>Solo Receiver</td>
-	<td>Solo Receiver</td>
-  </tr>
-  <tr>
-    <td><img src="images/set.png"></td>
-    <td><img src="images/set.png"></td>
-    <td><img src="images/set.png"></td>
-	<td><img src="images/set.png"></td>
-	<td><img src="images/set.png"></td>
-	<td><img src="images/set.png"></td>
-	<td><img src="images/set.png"></td>
-  </tr>
-  <tr>
-    <td>Upto 7 HDTV<br>(with Joey)</td>
-    <td>Upto 7 HDTV<br>(with Joey)</td>
-    <td>1 HDTV & 1 SDTV</td>
-	<td>1 HDTV</td>
-	<td>1 HDTV</td>
-	<td>1 HDTV</td>
-	<td>1 HDTV</td>
-  </tr>
-  <tr>
-    <td>2 TB Hard drive</td>
-    <td>2 TB Hard drive</td>
-    <td>320 GB Hard Drive(622)</td>
-	<td>-</td>
-	<td>320 GB Hard Drive</td>
-	<td>-</td>
-	<td>-</td>
-  </tr>
-  <tr>
-    <td>Dolby Digital</td>
-    <td>Dolby Digital</td>
-    <td>Dolby Digital</td>
-	<td>Dolby Digital</td>
-	<td>Dolby Digital</td>
-	<td>Dolby Digital</td>
-	<td>Dolby Digital</td>
-  </tr>
-  <tr>
-    <td>Picture in Picture</td>
-    <td>Picture in Picture</td>
-    <td>Picture in Picture<br>in single mode</td>
-	<td>Picture in Picture<br>in single mode</td>
-	<td>-</td>
-	<td>-</td>
-	<td>-</td>
-  </tr>
-  <tr>
-    <td>1080p VOD</td>
-    <td>1080p VOD</td>
-    <td>1080p VOD</td>
-	<td>-</td>
-	<td>1080p VOD</td>
-	<td>1080p VOD</td>
-	<td>-</td>
-  </tr>
-  <tr>
-    <td>3D VOD</td>
-    <td>3D VOD</td>
-    <td>3D VOD</td>
-	<td>-</td>
-	<td>-</td>
-	<td>-</td>
-	<td>-</td>
-  </tr>
-  <tr>
-    <td>External Hard<br>Drive capatiable</td>
-    <td>External Hard<br>Drive capatiable</td>
-    <td>External Hard<br>Drive capatiable</td>
-	<td>-</td>
-	<td>External Hard<br>Drive capatiable</td>
-	<td>External Hard<br>Drive capatiable</td>
-	<td>External Hard<br>Drive capatiable</td>
-  </tr>
-</table>
-<br>
-<br>
-<br>
-<h1>Standard Definition Receivers </h1>
-<br>
-<br>
-<br>
-<table>
-  <tr>
-    <th>2-Room DVR</th>
-	<th>2-Room</th>
-	<th>1-Room DVR</th>
-    <th>1-Room</th>
-	
-  </tr>
-  <tr>
-    <td>DUO DVR Receiver</td>
-    <td>DUO Receiver</td>
-    <td>Solo DVR</td>
-	<td>Solo Receiver</td>
-	
-  </tr>
-  <tr>
-    <td><img src="images/set.png"></td>
-    <td><img src="images/set.png"></td>
-    <td><img src="images/set.png"></td>
-	<td><img src="images/set.png"></td>
-	
-  </tr>
-  <tr>
-    <td>120 Hard Drive</td>
-    <td>-</td>
-    <td>120 Hard Drive</td>
-	<td>-</td>
-	
-  </tr>
-  <tr>
-    <td>Picture in Picture<br>in single mode</td>
-    <td>-</td>
-    <td>Picture in Picture<br>in single mode</td>
-	<td>-</td>
-	
-  </tr>
-  <tr>
-    <td>Caller ID*</td>
-    <td>Caller ID*</td>
-    <td>Caller ID*</td>
-	<td>Caller ID*</td>
-	
-  </tr>
-  
-  </table>
+	<h1>THE CLEAR CHOICE FOR 2017</h1>
+	<h6>Our average rep earned over $1500 worth of incentives during the summer!</h6>
+	<p>If you like to work hard, play harder, and contribute to a #1 team.
+	Then CLEAR Satellite is for you! This will be the best job you'll ever<br> 
+	have! We have incentives for almost anything. Regular competitions, top 
+	reps, top rookies, top veterans, top offices, and much more. Below are <br>
+	some of our most popular incentives.<br></p>
+	<br>
+	<br>
+	<center><button class="btn">INCENTIVES</button></center>
+	<br>
+	<section class="parallax well3 wow fadeIn" data-url="images/map.png" data-mobile="true" data-speed="1">
+      <div class="pic"> 
+	  <div class="text"> If you like to work hard, play harder, and contribute to a #1 team.
+	Then CLEAR Satellite is for you! This will be the best job you'll ever<br> 
+	have! We have incentives for almost anything. Regular competitions, top 
+	reps, top rookies, top veterans, top offices, and much more. Below are <br>
+	some of our most popular incentives.<br>
+	  </div>
+    </section>
     <section class="well4">
       <div class="container">
         <h3 class="cntr">Pricing Plans</h3>
@@ -383,71 +248,31 @@
 				<p><h4>$70 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
                 <a href="#" class="btn3">select plan</a>
               </div>
-			  <div class="price-banner">
-                <h5>Basic</h5>
-                <p class="price">$128</p>
-                <p class="price2">per month</p>
-                <ul class="">
-                  <li>-$43 Programming Rebates</li>
-                  <li>-$10 Instant Saving</li>
-                </ul>
-				<p><h4>$75 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
-                <a href="#" class="btn3">select plan</a>
-              </div>
-              <div class="price-banner">
-                <h5>Basic</h5>
-                <p class="price">$181</p>
-                <p class="price2">per month</p>
-                <ul class="">
-                  <li>-$46 Programming Rebates</li>
-                  <li>-$10 Instant Saving</li>
-                </ul>
-				<p><h4>$125 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
-                <a href="#" class="btn3">select plan</a>
-              </div>
+			  
+              
             </div>
           </div>
         </div>
       </div>
     </section>
-	<br>
-	<br>
-<h1>Get Started: Find Your Best Deals Now</h1>
-<br>
-<br>
+	<br><br>
+	<h1>CONTACT</h1>
+	<h6>Interested in working at DishTv?<br>
+Get in touch!</h6>
+	
+	<div id="envelope">
+<form action="" method="post">
+<label>Username</label>
+<input name="name" placeholder="" type="text" width="100px;">
+<label>Email Id</label>
+<input name="email" placeholder="" type="text">
+<textarea cols="15" name="message" placeholder="" rows="10">
+</textarea>
+<input id="submit" type="submit" value="Send Message">
+</form>
+</div>
 
-<table>
-  <tr>
-    <td><h4>Choose Your<br>Services:</h4></td>
-    <td><img src="images/set.png"><br><section>
-  <!-- Checbox Five -->
-  <h3>Internet</h3>
-  	<div class="checkboxFive">
-  		<input type="checkbox" value="1" id="checkboxFiveInput" name="" />
-	  	<label for="checkboxFiveInput"></label>
-  	</div>
-</section></td>
-    <td><img src="images/set.png"><br><section>
-  <!-- Checbox Five -->
-  <h3>Digital TV</h3>
-  	<div class="checkboxFive">
-  		<input type="checkbox" value="1" id="checkboxFiveInput" name="" />
-	  	<label for="checkboxFiveInput"></label>
-  	</div>
-</section></td>
-	<td><img src="images/set.png"><br><section>
-  <!-- Checbox Five -->
-  <h3>Home</h3>
-  	<div class="checkboxFive">
-  		<input type="checkbox" value="1" id="checkboxFiveInput" name="" />
-	  	<label for="checkboxFiveInput"></label>
-  	</div>
-</section></td>
-<td><button class="btn2" type="submit">Find</button></td>
-	</tr>
-  </table>
-
-
+	
 
     <section class="bg-img2">
       <div class="container">
@@ -491,7 +316,7 @@
     <section class="well5 bg2 section2">
       <div class="container">
         <h3>Don’t waste time! Start using!</h3>
-        <a href="#" class="btn2">Sign Up</a>
+        <a href="#" class="btn4">Sign Up</a>
       </div>
     </section>
 
