@@ -7,6 +7,7 @@
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
 
   <link rel="stylesheet" href="css/owl-carousel.css">
 
@@ -25,6 +26,15 @@
   <![endif]-->
 
   <script src='js/device.min.js'></script>
+  <script>
+  jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
+</script>
 </head>
 <body>
 <div class="page">
@@ -83,11 +93,9 @@
 
     <div class="header-section2">
       <div class="container">
-        
-		<p>Dish TV produces unmatched sales results <br>through customized face-to-face sales programs<br> based on innovation and a personalized touch.</p>
-        <br>
-		<button class="btn" type="submit">Learn More</button>
-        <div class="btn-holder">
+        <h1>BE YOUR OWN BOSS</h1>
+		<br>
+		<div class="btn-holder">
           
 		</div>
       </div>
@@ -97,166 +105,281 @@
   <!--========================================================
                             CONTENT
   =========================================================-->
-  
-  
   <main>
- 
-  
-  <section>
-    <div id="container">
-	<div id="col4">
-            <h5>THE Dish TV DIFFERENCE</h5>
-			<p>At Smart Circle, our goal is to successfully implement and execute customized face-to-face marketing and sales solutions through a dynamic national independent sales network, creating entrepreneurial opportunities for businesses everywhere to thrive and reach their goals.<p>
-        <button class="btn2" type="submit">Read More</button><br>	</div>
-		  <div id="col5">
-            <h5>SEE WHAT SMART<br>CIRCLE CAN DO<br>FOR YOU!</h5>
-            <br>
-          <button class="btn2" type="submit">Contact Us Today</button><br>	</div><br>
-    <div id="col1"><img src="images/01.jpg">
-            <h5>WHO WE ARE</h5>
-            <p align="left">Dish TV nationwide retail staffing programs and targeted canvassing programs outperform traditional marketing in customer acquisition, brand awareness and revenue goals.</p>
-		  <br>
-          <button class="btn2" type="submit">Read More</button><br>	</div>
-    <div id="col2"><img src="images/02.jpg">
-            <h5>WHAT WE DO</h5>
-            <p>As a worldwide leader in face-to-face marketing and direct and outsourced sales, Smart Circle is privileged to work with clients ranging from Fortune 500 companies and nationally recognized brands to regional and local businesses.</p>
-          <button class="btn2" type="submit">Read More</button><br></div>
-    <div id="col3"><img src="images/03.jpg">
-            <h5>HOW WE DO IT</h5>
-            <p>With the Smart Circle Sales Network of independently owned and operated corporate distributors, we are able to implement and execute customized face-to-face sales and marketing solutions.</p>
-          <button class="btn2" type="submit">Read More</button>
-		  <br>
-		  </div>
-</div>
-</section>
-
-
+    <div id="container1">
+    <div id="col1">
+	<h1>About Alder</h1>
+    <p>Alder is one of America’s most successful and fastest growing Home Security and Home Automation companies. 
+	We provide our clients with safety, security, and peace of mind with state-of-the-art technologies and 
+	customer experiences that are excellent, easy, and enjoyable.
+	</p>
+	<img src="images/03.jpg" />
 	
+	</div>
+    <div id="col2">
+	<h1>Growth graph </h1>
+	
+<div class="skillbar clearfix " data-percent="50%">
+	<div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+	<div class="skillbar-bar" style="background: #2c3e50;"></div>
+	<div class="skill-bar-percent">50%</div>
+</div> <!-- End Skill Bar -->
 
+<div class="skillbar clearfix " data-percent="40%">
+	<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+	<div class="skillbar-bar" style="background: #5a68a5;"></div>
+	<div class="skill-bar-percent">40%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="75%">
+	<div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
+	<div class="skillbar-bar" style="background: #525252;"></div>
+	<div class="skill-bar-percent">75%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="100%">
+	<div class="skillbar-title" style="background: #27ae60;"><span>SEO</span></div>
+	<div class="skillbar-bar" style="background: #2ecc71;"></div>
+	<div class="skill-bar-percent">100%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="70%">
+	<div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
+	<div class="skillbar-bar" style="background: #4288d0;"></div>
+	<div class="skill-bar-percent">70%</div>
+</div> <!-- End Skill Bar -->
+    
+	</div>
+    
+</div>
 <section class="well2">
       <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-3 col-xs-6  wow fadeIn">
               <p class="num1">259<i class="fl-bigmug-line-checkmark14"></i></p>
-              <h5>Projects Completed</h5>
+              <h5>Avg. sales/Rep</h5>
             </div>
 
             <div class="col-md-3 col-sm-3 col-xs-6  wow fadeIn">
               <p class="num1">108<i class="fl-bigmug-line-circular220"></i></p>
-              <h5>Awards Received</h5>
+              <h5>Avg Incentive</h5>
             </div>
 
             <div class="col-md-3 col-sm-3 col-xs-6  wow fadeIn">
               <p class="num1">10346k<i class="fl-bigmug-line-code30"></i></p>
-              <h5>Lines of Code</h5>
+              <h5>Highest Incentive</h5>
             </div>
 
             <div class="col-md-3 col-sm-3 col-xs-6  wow fadeIn">
               <p class="num1">306<i class="fl-bigmug-line-cocktail26"></i></p>
-              <h5>Glasses of Martini</h5>
+              <h5>Team size</h5>
             </div>
         </div>
       </div>
     </section>
-	<section class="parallax well3 wow fadeIn" data-url="images/parallax4.jpg" data-mobile="true" data-speed="1">
-      <div class="container">
-        <h4 class="mod1">Hello</h4>
-		<p>We believe that success is rooted in attitude and work ethic. We teach our reps how to harness the power of belief, hard work,<br> and leadership and in return they create opportunity for themselves and the people of this world.</p>
-        <br>
-		<button class="btn">Sign Up</button>
-      </div>
-    </section>
+	
+	<section id="speakers">
+		<h3>Our Team</h3> <!-- Section Title -->
+		<div class="separator"></div>
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2">
+				<!-- Section Description -->
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			
+			<!-- First Row of Speakers -->
+			<div class="row1">
+			
+				<!-- Speaker 1 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/speaker-1.png" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="images/speaker-1-hover.png" alt="" />
+						</div>
+						<span>Creative Director</span>
+						<h4><span>Patrick </span> Simpson</h4>
+					</a>	
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>						
+					</ul>
+				</div>
+				
+				<!-- Speaker 2 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/speaker-2.png" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="images/speaker-2-hover.png" alt="" />
+						</div>
+						<span>Web Designer</span>
+						<h4><span>Teresa</span> Crawford</h4>
+					</a>	
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+				
+				<!-- Speaker 3 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/speaker-3.png" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="images/speaker-3-hover.png" alt="" />
+						</div>
+						<span>Photographer</span>
+						<h4><span>Joseph</span> Reynolds</h4>
+					</a>					
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>						
+						<li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>						
+					</ul>					
+				</div>
+				
+				<!-- Speaker 4 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/speaker-4.png" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="images/speaker-4-hover.png" alt="" />
+						</div>
+						<span>SEO Expert</span>
+						<h4><span>Kathy</span> Watkins</h4>
+					</a>					
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+					</ul>						
+				</div>
+				
+			</div> <!-- End First Row -->
+			<div class="clear"></div>
+			
+			<!-- Second Row of Speakers -->
+			<div class="row2">
+			
+				<!-- Speaker 5 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/speaker-3.png" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="images/speaker-3-hover.png" alt="" />
+						</div>
+						<span>Creative Director</span>
+						<h4><span>Nathan</span> Chapman</h4>
+					</a>					
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>						
+					</ul>
+				</div>
+				
+				<!-- Speaker 6 -->	
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/speaker-4.png" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="images/speaker-4-hover.png" alt="" />
+						</div>
+						<span>Web Designer</span>
+						<h4><span>Donna</span> Hamilton</h4>
+					</a>					
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+				
+				<!-- Speaker 7 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/speaker-1.png" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="images/speaker-1-hover.png" alt="" />
+						</div>
+						<span>Photographer</span>
+						<h4><span>Jessica</span> Wallace</h4>
+					</a>					
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>						
+						<li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>						
+					</ul>					
+				</div>
+				
+				<!-- Speaker 8 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/speaker-2.png" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="images/speaker-2-hover.png" alt="" />
+						</div>
+						<span>SEO Expert</span>
+						<h4><span>Kathy</span> Watkins</h4>
+					</a>					
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+				
+			</div>	<!-- End Second Row -->	
+			<div class="clear"></div>
+			
+			<!-- View All Button -->
+			<div class="col-md-12">
+				<button class="btn btn-transparent fadeIn">View All</button>
+			</div>	
+					
+		</div>
+	</section>
 	<section class="well5 bg2 section2">
       <div class="container">
         <h3>LOOKING TO JOIN THE TEAM?</h3>
         <a href="#" class="btn4">Apply Now</a>
       </div>
     </section>
-	<br>
-	<br>
-	<h1>THE CLEAR CHOICE FOR 2017</h1>
-	<h6>Our average rep earned over $1500 worth of incentives during the summer!</h6>
-	<p>If you like to work hard, play harder, and contribute to a #1 team.
-	Then CLEAR Satellite is for you! This will be the best job you'll ever<br> 
-	have! We have incentives for almost anything. Regular competitions, top 
-	reps, top rookies, top veterans, top offices, and much more. Below are <br>
-	some of our most popular incentives.<br></p>
-	<br>
-	<br>
-	<center><button class="btn">INCENTIVES</button></center>
-	<br>
-	<section class="parallax well3 wow fadeIn" data-url="images/map.png" data-mobile="true" data-speed="1">
-      <div class="pic"> 
-	  <div class="text"> If you like to work hard, play harder, and contribute to a #1 team.
-	Then CLEAR Satellite is for you! This will be the best job you'll ever<br> 
-	have! We have incentives for almost anything. Regular competitions, top 
-	reps, top rookies, top veterans, top offices, and much more. Below are <br>
-	some of our most popular incentives.<br>
-	  </div>
-    </section>
-    <section class="well4">
-      <div class="container">
-        <h3 class="cntr">Pricing Plans</h3>
-        <div class="row marTop1">
-          <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 col-lg-offset-1 wow fadeIn">
-            <div class="pricing">
-              <div class="price-banner">
-                <h5>Basic</h5>
-                <p class="price">$88</p>
-                <p class="price2">per month</p>
-                <ul class="">
-                  <li>-$28 Programming Rebates</li>
-                  <li>-$10 Instant Saving</li>
-                </ul>
-				<p><h4>$50 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
-                <a href="#" class="btn3">select plan</a>
-              </div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <!-- Load jQuery -->
 
-              <div class="price-banner">
-                <h5>Basic</h5>
-                <p class="price">$98</p>
-                <p class="price2">per month</p>
-                <ul class="">
-                  <li>-$33 Programming Rebates</li>
-                  <li>-$10 Instant Saving</li>
-                </ul>
-				<p><h4>$55 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
-                <a href="#" class="btn3">select plan</a>
-              </div>
-			  
-			  <div class="price-banner">
-                <h5>Basic</h5>
-                <p class="price">$111</p>
-                <p class="price2">per month</p>
-                <ul class="">
-                  <li>-$41 Programming Rebates</li>
-                  <li>-$10 Instant Saving</li>
-                </ul>
-				<p><h4>$60 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
-                <a href="#" class="btn3">select plan</a>
-              </div>
-
-              <div class="price-banner active">
-                <p class="recommended">recommended</p>
-                <h5>Big Company</h5>
-                <p class="price">$118</p>
-                <p class="price2">per month</p>
-                <ul class="">
-                  <li>-$38 Programming Rebates</li>
-                  <li>-$10 Instant Saving</li>
-                </ul>
-				<p><h4>$70 per month <br>+<br> Tax </h4><br>For 12 months <br> With 24 months Agreement</p>
-                <a href="#" class="btn3">select plan</a>
-              </div>
-			  
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-	<br><br>
-	<h1>CONTACT</h1>
+	<!-- jQuery Code for the View All Button -->
+	<script>
+		$(document).ready(function(){
+		  $(".fadeIn").click(function(){
+			$("div.row2").fadeIn();
+			$("button.fadeIn").hide();
+		  });
+		});
+	</script>
+	
+	<h1 style="color:black;">CONTACT</h1>
 	<h6>Interested in working at DishTv?<br>
 Get in touch!</h6>
 	
@@ -272,17 +395,7 @@ Get in touch!</h6>
 </form>
 </div>
 
-	
-
-    <section class="bg-img2">
-      <div class="container">
-        <h3>Beautiful E-mail Templates</h3>
-        <h5 class="normal">You can choose from 1000+ well designed professional templates</h5>
-        <a href="#" class="btn2">View All</a>
-      </div>
-    </section>
-
-    <section class="bg-img3">
+	<section class="bg-img3">
       <div class="container">
         <h3>Testimonials</h3>
         <div class="row">
@@ -315,7 +428,7 @@ Get in touch!</h6>
 
     <section class="well5 bg2 section2">
       <div class="container">
-        <h3>Don’t waste time! Start using!</h3>
+        <h3>we are ever expanding team, come be a part of a journey.</h3>
         <a href="#" class="btn4">Sign Up</a>
       </div>
     </section>
