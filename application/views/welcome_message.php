@@ -118,8 +118,19 @@
 	</div>
     <div id="col2">
 	<h1>Growth graph </h1>
-	
-<div class="skillbar clearfix " data-percent="50%">
+	<div id="tabs">
+
+  <input type="radio" name="tabs" id="toggle-tab1" checked="checked" />
+  <label for="toggle-tab1">Tab 1</label>
+
+  <input type="radio" name="tabs" id="toggle-tab2" />
+  <label for="toggle-tab2">Tab 2</label>
+
+  
+
+
+  <div id="tab1" class="tab">
+  <div class="skillbar clearfix " data-percent="50%">
 	<div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
 	<div class="skillbar-bar" style="background: #2c3e50;"></div>
 	<div class="skill-bar-percent">50%</div>
@@ -148,6 +159,18 @@
 	<div class="skillbar-bar" style="background: #4288d0;"></div>
 	<div class="skill-bar-percent">70%</div>
 </div> <!-- End Skill Bar -->
+  </div>
+
+  <div id="tab2" class="tab">
+  Donec venenatis quam sit amet neque gravida, at commodo lacus gravida.
+  </div>
+
+  
+
+</div>
+	
+	
+
     
 	</div>
     
@@ -177,6 +200,34 @@
         </div>
       </div>
     </section>
+	<h1>JQUERY NUMBER ANIMATION</h1>
+
+
+<div class="wrapper">
+    <div class="counter col_fourth">
+      <i class="fa fa-code fa-2x"></i>
+      <h2 class="timer count-title count-number" data-to="300" data-speed="1500"></h2>
+       <p class="count-text ">Avg. sales/Rep</p>
+    </div>
+
+    <div class="counter col_fourth">
+      <i class="fa fa-coffee fa-2x"></i>
+      <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
+      <p class="count-text ">Avg Incentive</p>
+    </div>
+
+    <div class="counter col_fourth">
+      <i class="fa fa-lightbulb-o fa-2x"></i>
+      <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
+      <p class="count-text ">Highest Incentive</p>
+    </div>
+
+    <div class="counter col_fourth end">
+      <i class="fa fa-bug fa-2x"></i>
+      <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
+      <p class="count-text ">Team size</p>
+    </div>
+</div>
 	
 	<section id="speakers">
 		<h3>Our Team</h3> <!-- Section Title -->
@@ -350,13 +401,16 @@
 					</ul>
 				</div>
 				
+				
 			</div>	<!-- End Second Row -->	
 			<div class="clear"></div>
+			
 			
 			<!-- View All Button -->
 			<div class="col-md-12">
 				<button class="btn btn-transparent fadeIn">View All</button>
 			</div>	
+			
 					
 		</div>
 	</section>
@@ -380,6 +434,16 @@
 	</script>
 	<br>
 	<br>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<h1 style="color:black;">CONTACT</h1>
 	<h6>Interested in working at DishTv?<br>
 Get in touch!</h6>
@@ -395,7 +459,6 @@ Get in touch!</h6>
 <input id="submit" type="submit" value="Send Message">
 </form>
 </div>
-
 
 <script src="images/test.js"></script>
 <!-- TESTIMONIALS -->
@@ -457,7 +520,6 @@ Get in touch!</h6>
       </div>
     </section>
     <!-- END OF TESTIMONIALS -->
-
 
 
 	<section class="bg-img3">
