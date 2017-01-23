@@ -1655,12 +1655,21 @@ p{
     float:left;
 	color:white;
     text-align:center;
+	width:100%;
+    background:#808080;
+    padding:20px;
+	height:100px;
+	}
+#col2 {
+    float:left;
+	color:white;
+    text-align:center;
 	width:50%;
     background:#808080;
     padding:20px;
 	height:500px;
 	}
-#col2 {
+#col3 {
     float:left;
 	color:white;
     text-align:center;
@@ -1725,6 +1734,7 @@ width:100%;
 padding: 15px;
 border-radius:5px;
 border:1px solid #808080;
+height:40px;
 }
 input[type=submit]
 {
@@ -1752,6 +1762,7 @@ border:1px solid #808080;
 border-radius:5px;
 margin-bottom: 20px;
 resize:none;
+height:150px;
 }
 input[type=text]:focus,textarea:focus {
 border-color: #808080;
@@ -2027,9 +2038,96 @@ width:110px;
 .count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
 .fa-2x { margin: 0 auto; float: none; display: table; color: #000; }
 
+#testimonial {
+  background-image: url("http://demos-pirftc7xlgm3gz2xr9zm.stackpathdns.com/infinite/wp-content/uploads/2016/06/home-testimonial-bg.jpg");
+    background-position: center center;
+  width:100%;
+    height: 500px;
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+  position:relative;
+  color:#fff;
+  text-align:center;
+}
+.container-inf2 {
+    width:92%;
+    margin:0 auto;
+}
+#textslides {
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  height: 250px;
+  margin:auto;
+}
 
+#textslides ul {
+  list-style: none;
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color:#fff
+}
 
+#textslides li {
+  width: 100%;
+  height: 250px;
+  float: left;
+  text-align: center;
+  position: relative;
+  font-size:15px;
+  margin-top:30px;
+  font-family: lato, sans-serif;
+}
+.btn-bar {
+  width: 100%;
+  display: block;
+  position:relative;
+  top:40%;
+}
 
+#buttons {
+  padding: 0 0 5px 0;
+}
 
+#buttons a {
+	    margin-top: 70px;
+  text-align: center;
+  display: block;
+  font-size: 50px;
+  outline: 0;
+  color: #b14943;
+  text-decoration: none;
+  padding: 9px;
+  width: 35px;
 
+}
+a#textprev {
+  float:left;
+}
+a#textnext {
+  float:right;
+}
+#textslides i {
+  font-size:30px;
+}
+#textslides img {
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  vertical-align:middle;
+  float:left;
+  margin-left:50%;
+}
 
+.mini {
+  font-size:12px;
+  font-style:italic;
+  padding-top:10px;
+}
+.test {
+  width: 200px;
+  margin:5% auto;
+}

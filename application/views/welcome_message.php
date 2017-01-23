@@ -107,7 +107,12 @@
   =========================================================-->
   <main>
     <div id="container1">
-    <div id="col1">
+	<div id="col1">
+	<h1>About Alder</h1>
+    
+	
+	</div>
+    <div id="col2">
 	<h1>About Alder</h1>
     <p>Alder is one of America’s most successful and fastest growing Home Security and Home Automation companies. 
 	We provide our clients with safety, security, and peace of mind with state-of-the-art technologies and 
@@ -116,7 +121,7 @@
 	<img src="images/03.jpg" />
 	
 	</div>
-    <div id="col2">
+    <div id="col3">
 	<h1>Growth graph </h1>
 	<div class="skillbar clearfix " data-percent="50%">
 	<div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
@@ -152,36 +157,7 @@
     
 	</div>
     
-</div>
-<section class="well2">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-3 col-xs-6  wow fadeIn">
-              <p class="num1">259<i class="fl-bigmug-line-checkmark14"></i></p>
-              <h5>Avg. sales/Rep</h5>
-            </div>
-
-            <div class="col-md-3 col-sm-3 col-xs-6  wow fadeIn">
-              <p class="num1">108<i class="fl-bigmug-line-circular220"></i></p>
-              <h5>Avg Incentive</h5>
-            </div>
-
-            <div class="col-md-3 col-sm-3 col-xs-6  wow fadeIn">
-              <p class="num1">10346k<i class="fl-bigmug-line-code30"></i></p>
-              <h5>Highest Incentive</h5>
-            </div>
-
-            <div class="col-md-3 col-sm-3 col-xs-6  wow fadeIn">
-              <p class="num1">306<i class="fl-bigmug-line-cocktail26"></i></p>
-              <h5>Team size</h5>
-            </div>
-        </div>
-      </div>
-    </section>
-	<h1>JQUERY NUMBER ANIMATION</h1>
-
-
-<div class="wrapper">
+<div class="wrapper " >
     <div class="counter col_fourth">
       <i class="fa fa-code fa-2x"></i>
       <h2 class="timer count-title count-number" data-to="300" data-speed="1500"></h2>
@@ -425,13 +401,13 @@
 	<h1 style="color:black;">CONTACT</h1>
 	<h6>Interested in working at DishTv?<br>
 Get in touch!</h6>
-	
 	<div id="envelope">
 <form action="" method="post">
 <label>Username</label>
 <input name="name" placeholder="" type="text" width="100px;">
 <label>Email Id</label>
 <input name="email" placeholder="" type="text">
+<label>Message</label>
 <textarea cols="15" name="message" placeholder="" rows="10">
 </textarea>
 <input id="submit" type="submit" value="Send Message">
@@ -439,96 +415,50 @@ Get in touch!</h6>
 </div>
 
 <script src="images/test.js"></script>
-<!-- TESTIMONIALS -->
-<section class="testimonials">
-	<div class="container">
-
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="customers-testimonials" class="owl-carousel">
-
-            <!--TESTIMONIAL 1 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-              <div class="testimonial-name">EMILIANO AQUILANI</div>
-            </div>
-            <!--END OF TESTIMONIAL 1 -->
-            <!--TESTIMONIAL 2 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-              <div class="testimonial-name">ANNA ITURBE</div>
-            </div>
-            <!--END OF TESTIMONIAL 2 -->
-            <!--TESTIMONIAL 3 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-              <div class="testimonial-name">LARA ATKINSON</div>
-            </div>
-            <!--END OF TESTIMONIAL 3 -->
-            <!--TESTIMONIAL 4 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-              <div class="testimonial-name">IAN OWEN</div>
-            </div>
-            <!--END OF TESTIMONIAL 4 -->
-            <!--TESTIMONIAL 5 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-              <div class="testimonial-name">MICHAEL TEDDY</div>
-            </div>
-            <!--END OF TESTIMONIAL 5 -->
+<div  class="owl-carousel">
           </div>
-        </div>
-      </div>
-      </div>
-    </section>
-    <!-- END OF TESTIMONIALS -->
+       
+  <section id="testimonial">
+  <div class="container-inf2">
+    <h1>TESTIMONIAL</h1>
+<div class="btn-bar">
+  <div id="buttons">
+    <a class="some" id="textprev" href="#">&lt;</a>
+    <a class="some" id="textnext" href="#">&gt;</a>
+  </div>
+</div>
+<div id="textslides">
+  <ul>
+    <li class="textslide">
+      A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
+      
+      <p class="test"><img src="http://demos-pirftc7xlgm3gz2xr9zm.stackpathdns.com/infinite/wp-content/uploads/2016/05/testimonial-2.jpg">
+	  
+      </p>
+	  
+    </li>
+    <li class="textslide">
+      A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
+      
+      <p class="test"><img src="http://demos-pirftc7xlgm3gz2xr9zm.stackpathdns.com/infinite/wp-content/uploads/2016/05/testimonial-2.jpg"><
+      
+	  </p>
+	  
+    </li>
+    <li class="textslide">
+      A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
+     <p class="test"><img src="http://demos-pirftc7xlgm3gz2xr9zm.stackpathdns.com/infinite/wp-content/uploads/2016/05/testimonial-2.jpg">
+	
+	 </p>
+	 
+    </li>
+  </ul>
+  
+    </div>
+  </div>
+</section>
+  
 
-
-	<section class="bg-img3">
-      <div class="container">
-        <h3>Testimonials</h3>
-        <div class="row">
-          <div class="col-lg-7 col-md-9 col-sm-9 col-xs-12 col-lg-offset-1 wow fadeIn">
-            <div class="owl-carousel">
-              <div class="item">
-                  <blockquote>
-                    <q>For luxury retailer, Billy Reid, MailJet is more than just a way to let customers know about new products. They offer first dibs on sales to their most engaged readers, have unique ways of deciding the time of day to send their emails, and even base new brick-and-mortar store locations on their email zip code data. We visited Florence, Ala. and spoke with Billy Reid's director of e-commerce, </q>
-                    <cite>Bob Dilan, Owner</cite>
-                  </blockquote>
-              </div>
-              <div class="item">
-                  <blockquote>
-                    <q>I would just like to say thank you for your prompt and effective service, for your friendly and professional support staff! I will recommend your expert company to all my friends. </q>
-                    <cite>Rob Smith, Client</cite>
-                  </blockquote>
-              </div>
-              <div class="item">
-                  <blockquote>
-                    <q>Hi, guys! You’ve solved my problem in no time! Your efficient services and customer care are second to none! I am very happy! I will surely share my experience with my friends! </q>
-                    <cite>Sarah Johnson, Custome</cite>
-                  </blockquote>
-              </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
 
     <section class="well5 bg2 section2">
@@ -537,7 +467,6 @@ Get in touch!</h6>
         <a href="#" class="btn4">Sign Up</a>
       </div>
     </section>
-
 
 
 
