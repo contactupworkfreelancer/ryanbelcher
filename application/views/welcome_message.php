@@ -118,19 +118,7 @@
 	</div>
     <div id="col2">
 	<h1>Growth graph </h1>
-	<div id="tabs">
-
-  <input type="radio" name="tabs" id="toggle-tab1" checked="checked" />
-  <label for="toggle-tab1">Tab 1</label>
-
-  <input type="radio" name="tabs" id="toggle-tab2" />
-  <label for="toggle-tab2">Tab 2</label>
-
-  
-
-
-  <div id="tab1" class="tab">
-  <div class="skillbar clearfix " data-percent="50%">
+	<div class="skillbar clearfix " data-percent="50%">
 	<div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
 	<div class="skillbar-bar" style="background: #2c3e50;"></div>
 	<div class="skill-bar-percent">50%</div>
@@ -159,16 +147,6 @@
 	<div class="skillbar-bar" style="background: #4288d0;"></div>
 	<div class="skill-bar-percent">70%</div>
 </div> <!-- End Skill Bar -->
-  </div>
-
-  <div id="tab2" class="tab">
-  Donec venenatis quam sit amet neque gravida, at commodo lacus gravida.
-  </div>
-
-  
-
-</div>
-	
 	
 
     
