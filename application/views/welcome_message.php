@@ -93,7 +93,7 @@
 
     <div class="header-section2">
       <div class="container">
-        <h1>BE YOUR OWN BOSS</h1>
+        <h1 style="color:black;margin:165px 0px 0px 630px">BE YOUR OWN BOSS</h1>
 		<br>
 		<div class="btn-holder">
           
@@ -108,54 +108,17 @@
   <main>
     <div id="container1">
 	<div id="col1">
-	<h1>About Alder</h1>
-    
-	
-	</div>
+	<h1>About Us</h1>
+    </div>
     <div id="col2">
-	<h1>About Alder</h1>
-    <p>Alder is one of America’s most successful and fastest growing Home Security and Home Automation companies. 
+	<p>Alder is one of America’s most successful and fastest growing Home Security and Home Automation companies. 
 	We provide our clients with safety, security, and peace of mind with state-of-the-art technologies and 
 	customer experiences that are excellent, easy, and enjoyable.
 	</p>
-	<img src="images/03.jpg" />
-	
 	</div>
     <div id="col3">
-	<h1>Growth graph </h1>
-	<div class="skillbar clearfix " data-percent="50%">
-	<div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
-	<div class="skillbar-bar" style="background: #2c3e50;"></div>
-	<div class="skill-bar-percent">50%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="40%">
-	<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
-	<div class="skillbar-bar" style="background: #5a68a5;"></div>
-	<div class="skill-bar-percent">40%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="75%">
-	<div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
-	<div class="skillbar-bar" style="background: #525252;"></div>
-	<div class="skill-bar-percent">75%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="100%">
-	<div class="skillbar-title" style="background: #27ae60;"><span>SEO</span></div>
-	<div class="skillbar-bar" style="background: #2ecc71;"></div>
-	<div class="skill-bar-percent">100%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="70%">
-	<div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
-	<div class="skillbar-bar" style="background: #4288d0;"></div>
-	<div class="skill-bar-percent">70%</div>
-</div> <!-- End Skill Bar -->
-	
-
-    
-	</div>
+	<img src="images/03.jpg" />
+    </div>
     
 <div class="wrapper " >
     <div class="counter col_fourth">
@@ -184,7 +147,7 @@
 </div>
 	
 	<section id="speakers">
-		<h3>Our Team</h3> <!-- Section Title -->
+		<h1>Our Team</h1> <!-- Section Title -->
 		<div class="separator"></div>
 		<div class="container">
 			<div class="col-md-8 col-md-offset-2">
@@ -431,51 +394,30 @@ Get in touch!</h6>
   <ul>
     <li class="textslide">
       A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
-      
       <p class="test"><img src="http://demos-pirftc7xlgm3gz2xr9zm.stackpathdns.com/infinite/wp-content/uploads/2016/05/testimonial-2.jpg">
-	  
-      </p>
-	  
-    </li>
+	  </p>
+	  </li>
     <li class="textslide">
       A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
-      
-      <p class="test"><img src="http://demos-pirftc7xlgm3gz2xr9zm.stackpathdns.com/infinite/wp-content/uploads/2016/05/testimonial-2.jpg"><
-      
-	  </p>
-	  
-    </li>
+      <p class="test"><img src="http://demos-pirftc7xlgm3gz2xr9zm.stackpathdns.com/infinite/wp-content/uploads/2016/05/testimonial-2.jpg">
+      </p>
+	</li>
     <li class="textslide">
       A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
      <p class="test"><img src="http://demos-pirftc7xlgm3gz2xr9zm.stackpathdns.com/infinite/wp-content/uploads/2016/05/testimonial-2.jpg">
-	
-	 </p>
-	 
-    </li>
+	</p>
+	</li>
   </ul>
-  
-    </div>
+  </div>
   </div>
 </section>
-  
-
-
-
     <section class="well5 bg2 section2">
       <div class="container">
         <h3>we are ever expanding team, come be a part of a journey.</h3>
         <a href="#" class="btn4">Sign Up</a>
       </div>
     </section>
-
-
-
-
-
-
-
-
-  </main>
+ </main>
 
   <!--========================================================
                             FOOTER
