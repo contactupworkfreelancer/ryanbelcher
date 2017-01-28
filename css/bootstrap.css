@@ -195,6 +195,7 @@ textarea {
 }
 img {
   vertical-align: middle;
+  margin-top:-25px;
 }
 .img-responsive {
   display: block;
