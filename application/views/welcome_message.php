@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>DishTv</title>
+  <title>Dynamic Marketing</title>
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no"/>
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -47,7 +47,7 @@
         <div class="container">
           <div class="brand">
             <h1 class="brand_name fl-justicons-airplane82">
-              <a href="./">DishTv</a>
+              <a href="./"><img src="images/logo.png" /></a>
             </h1>
           </div>
 
@@ -119,7 +119,7 @@
     <div id="col3">
 	<img src="images/03.jpg" />
     </div>
-    
+    </div>
 <div class="wrapper " >
     <div class="counter col_fourth">
       <i class="fa fa-code fa-2x"></i>
@@ -168,12 +168,12 @@
 						<img src="images/speaker-1-hover.png" alt="" />
 						</div>
 						<span>Creative Director</span>
-						<h4><span>Patrick </span> Simpson</h4>
+						<h4><span>Ryan  </span> Belcher</h4>
 					</a>	
 					<ul>
-						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>						
+						<li><a href="https://www.linkedin.com/in/ryan-belcher-72272378/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="Ryanbelcher@dynamicpros.net"  target="_blank"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="https://www.facebook.com/Dynamic-Marketing-Professionals-LLc-195846187492596/?business_id=1662402200712297&ref=page_internal" target="_blank"><i class="fa fa-foursquare"></i></a></li>						
 					</ul>
 				</div>
 				
@@ -349,33 +349,51 @@
 		  });
 		});
 	</script>
-	<br>
-	<br>
+ 
+ 
+ <h1 style="color:#808080;margin-top:40px;">Contact Us</h1>
+<div class="inner contact">
+                <!-- Form Area -->
+                <div class="contact-form">
+                    <!-- Form -->
+                    <form id="contact-us" method="post" action="#">
+                        <!-- Left Inputs -->
+                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                            <!-- Name -->
+                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" style="border:1px solid #808080" />
+                            <!-- Email -->
+                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email"  style="border:1px solid #808080" />
+                            <!-- Message -->
+							<textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+							<button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
+                        </div><!-- End Left Inputs -->
+                        <!-- Right Inputs -->
+                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s" style="margin-top:145px; ">
+                            
+							<h4 style="color:#808080;text-align:center;">Phone : 1(559) 545-5358<h4>
+							<h4 style="color:#808080;text-align:center;">Skype: Ryanbel007<h4>
+                            <h4 style="color:#808080;text-align:center;">Email: Ryanbelcher@dynamicpros.net<h4>
+						  </div><!-- End Right Inputs -->
+                       
+                    </form>
+
+                    <!-- Your Mail Message -->
+                    <div class="mail-message-area">
+                        <!-- Message -->
+                        <div class="alert gray-bg mail-message not-visible-message">
+                            <strong>Thank You !</strong> Your email has been delivered.
+                        </div>
+                    </div>
+
+                </div><!-- End Contact Form Area -->
+            </div><!-- End Inner -->
+
+
+<center>  <a href="http://shuvohabib.com" target="blank">.... </a> </center>
+  
+
+
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<h1 style="color:black;">CONTACT</h1>
-	<h6>Interested in working at DishTv?<br>
-Get in touch!</h6>
-	<div id="envelope">
-<form action="" method="post">
-<label>Username</label>
-<input name="name" placeholder="" type="text" width="100px;">
-<label>Email Id</label>
-<input name="email" placeholder="" type="text">
-<label>Message</label>
-<textarea cols="15" name="message" placeholder="" rows="10">
-</textarea>
-<input id="submit" type="submit" value="Send Message">
-</form>
-</div>
 
 <script src="images/test.js"></script>
 <div  class="owl-carousel">
@@ -419,6 +437,7 @@ Get in touch!</h6>
     </section>
  </main>
 
+
   <!--========================================================
                             FOOTER
   =========================================================-->
@@ -428,11 +447,10 @@ Get in touch!</h6>
       <div class="social-section">
         <p>Follow Us on Social Networks</p>
         <ul class="inline-list">
-          <li><a href="#" class="fa-facebook-square"></a></li>
-          <li><a href="#" class="fa-linkedin-square"></a></li>
-          <li><a href="#" class="fa-instagram"></a></li>
-          <li><a href="#" class="fa-pinterest-square"></a></li>
-          <li><a href="#" class="fa-twitter-square"></a></li>
+          <li><a href=" https://www.facebook.com/Dynamic-Marketing-Professionals-LLc-195846187492596/?business_id=1662402200712297&ref=page_internal" class="fa-facebook-square"></a></li>
+          <li><a href="https://www.linkedin.com/in/ryan-belcher-72272378/" class="fa-linkedin-square"></a></li>
+          <li><a href="https://www.instagram.com/ryandbelcher/" class="fa-instagram"></a></li>
+          <li><a href="https://twitter.com/RyanBelcherDMP" class="fa-twitter-square"></a></li>
         </ul>
       </div>
 

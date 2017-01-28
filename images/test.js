@@ -197,5 +197,10 @@ $('#testimonial').ready(function () {
 function rotate() {
   $('#textnext').click();
 }
+
+
+
+
+
 	
 
